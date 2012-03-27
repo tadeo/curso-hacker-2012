@@ -1,1 +1,88 @@
-acá va el contenido de la clase 5... ya vendrá.
+/****************/
+/* git comandos */
+/****************/
+
+// Historial de lo ocurrido hasta el momento
+
+git status
+
+// Repo CursoHacker
+
+tadeo/curso-hacker-2012
+
+// Obtener repo online
+
+git clone git@github.com:/tadeo/curso-hacker-2012
+
+// 1 //
+git clone git@github.com:/tadeo/curso-hacker-2012
+
+// 2 //
+git init
+git add .
+git commit
+
+// 3 //
+git init --bare
+
+// Otros //
+git log
+git diff  					/* diferencias */
+git commit -m 'comentario para el commit'
+git mv media media2 				/* renombrando un directorio, archivo */
+git rm media2/prueba.txt 			/* borra un archivo */
+
+
+/******************************/
+/*** Configuraciones de GIT ***/
+/******************************/
+
+/* ------------------------------------------------ */
+
+Sistema  >>  /etc/gitconfig
+git config --system
+
+Usuario  >>  ~/.gitconfig
+git config --global
+
+Proyecto  >> 'directorio proyecto'/.git/config
+git config --local
+
+/* ----------------------------------------------- */
+
+git config --system user.name "Fabian"
+git config --system user.email famole@gmail.com
+git config --system core.editor vi
+
+// Alias
+git config --system alias.st status
+git config --system alias.ci commit
+git config --system alias.co checkout
+
+// Ver la configuracion 
+
+git config --list
+
+/* ----------------------------------------------- */
+
+/******************************************************************/
+/*** .gitignore - Como hacer para NO tener en cuenta un archivo ***/
+/******************************************************************/
+
+touch .gitignore
+
+//Editar .gitignore y agregar archivo o extensiones 
+
+*.class
+README
+nosubiresto.txt
+
+// Agregar un archivo de texto que no sea gitignore
+
+touch .gitignore2
+git config --global core.excludesfile ~/.gitignore2
+
+/* ------------------------------------------------- */
+
+
+
