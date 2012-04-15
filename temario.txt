@@ -1,0 +1,13 @@
+Temas para el curso web
+
+
+- Sistemas *nix (groups, users, touch, chmod, chown)
+- Línea de comandos (ssh, scp, rsync)
+- Git y sistemas de versionado
+- HTML / HTML5 / HAML / request-response
+- CSS / SASS
+- DB: Postgres, PgAdmin, FK - M2M - O2O, index SQL
+- OOP Patterns
+- JS / jQuery / ajax / JSON
+- MVC / Django
+- Restful apps
