@@ -1,12 +1,29 @@
-F2 Rename
-F5 Refresh
-Del Erase
-Meta+M Maximize/Minimize
-Meta+Shift+R Open resource
-Meta+D Delete line
-Ctrl+F6 Switch editors
-Ctrl+F7 Switch views
-F3 o Meta+Click go to definition
+F2					Rename
+F5					Refresh
+Del					Erase
 
-Ctrl+. autocomplete
-Ctrl+Space code completion / suggestion
+Meta+M				Maximize/Minimize
+Meta+F6				Switch editors
+Meta+F7				Switch views
+
+Meta+Shift+R		Open resource
+Meta+O				Open quick outline
+Meta+H				Search
+Meta+Alt+G			Search selected text in workspace
+
+F3 or Meta+Click	Go to definition
+
+Ctrl+.				Autocomplete
+Ctrl+Space			Code completion / suggestion
+
+Meta+Shift+P		Go to matching pair bracket, parenthesis
+Meta+L				Go to line by number
+
+Meta+D				Delete line
+Alt+Up				Move line up
+Meta+Alt+Up			Copy line up
+Alt+Down			Move line down
+Meta+Alt+Down		Copy line down
+Meta+/				Comment selected text
+
+Meta+,				Preferences
