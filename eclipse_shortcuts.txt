@@ -27,3 +27,5 @@ Meta+Alt+Down		Copy line down
 Meta+/				Comment selected text
 
 Meta+,				Preferences
+
+Meta+Shift+L		Opens the list of shortcuts available for Aptana/Eclipse
