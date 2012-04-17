@@ -1,0 +1,12 @@
+F2 Rename
+F5 Refresh
+Del Erase
+Meta+M Maximize/Minimize
+Meta+Shift+R Open resource
+Meta+D Delete line
+Ctrl+F6 Switch editors
+Ctrl+F7 Switch views
+F3 o Meta+Click go to definition
+
+Ctrl+. autocomplete
+Ctrl+Space code completion / suggestion
