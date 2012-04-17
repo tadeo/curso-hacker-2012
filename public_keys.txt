@@ -7,3 +7,15 @@ jXaE1iRoEHjxZgTadbBeYQOzMPLwU7zrgDW7ZwZco8qr855aMJlZGDIOMvQ4aepP2WusdFsPzBkofrI7
 Bg+np6MUM79APaLepUJjgWzG4bot7RLja1MR/gd/wZOdNlP354RIRL/0xQ== famole@gmail.com
 
 /*****************************************************************************/
+
+
+/* Clave Coli */
+
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6vSY7+ogvVBhL151rRJjHUCknwuqHiv05/ujCmggwB7KZ1FIEswbqKyTbKzbA33d2JavpesDmvv7zheDWm3p7qKlEViu6sfOdxyNES71Nsun1yLqXdAiwlsQdyjm1q3TwwnAorxzmOxM+gYwi7QIWZlBVdYyfssr2zfXrrvBUzS5xG3aJnwawsQOLAAvYVVdfNe8NVDLtJHRx3/EaRiquPE//aWMwG9GdujEm1VEpjfJU0HTPwW9cwLfVjvZvS4PKMluUd3Dh6fgbe6tm8v90IkaVOdxd2kFvYXoBZ6iuqnrAj2B8AQ+y3YZ5OAfdIgSounSLUbnjKWw8Q6qoVQnSQ== coliquijano@yahoo.com
+
+/********/
+
+/* Rafa */
+
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA3hZVrUzywt7JWPY1O9v2nPwnFMguEq8f83MINrfzI+c9SZpZR6inpeZ7x++9F6OGGzxvxaun7Wa02HG2FUDRlF0HU6YTKhLwUqWZZ7KaoldPBlw2mXGmNcWizJO5VYlJYDEbaNumdUjOiEI75ssczrf1BXODwT9CM2fwQN+KiJ3pykkvX1/BFuwQDA70Dt1QlclPuvI61chlgghMVI8/uxWLCPgtudBKs7awdYch+kYpRFyaXt8GVgmbH0x4gLFXiOYz+gr7SVuKNI9rCrKZdCMSqLiNC/m4k+FcNx6Gp+J7yFMkz7f1W+fKbfLwxVJTgHePJaOnChlumND2CQXbyw== rafa@rafabook.local
+>>>>>>> 6225f8a0b770bba6c0b433faa612e347769df182
