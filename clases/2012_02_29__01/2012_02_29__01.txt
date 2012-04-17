@@ -1,8 +1,105 @@
-Editar este archivo
-Test de ediciÃ³n nuevo2
-/* test edit file */
+Curso de Hacker
 
-test
+Miércoles 29 de febrero
+ 
+Clase 1
 
-agregar una linea
-ahora si
+Temas:
+Presentación de cada uno e introducción al curso.
+Sistemas de numeración binarios y hexadecimales.
+Linea de comandos, terminal o CLI (Command Line Interface)
+
+- - -
+
+Binarios y hexadecimales:
+
+Con 3 bits (útil para los permisos de cada archivo o carpeta de unix)
+
+Binarios	Decimales
+000		0
+001		1
+010		2
+011		3
+100		4
+101		5
+110		6
+111		7
+
+8 posibilidades con 3 bits. 
+Arreglos con repetición de 2 elementos (0 y 1) tomados de a 3 (tres bits). 
+2 3 = 8
+
+Arreglos con repetición de 16 (hexadecimal de 0 a 9 y de 'a' a 'f') elementos tomados de a 2. 
+16 2 = 256
+
+Ejemplos
+
+Hexa	Dec
+00	0
+09	9
+0f	15
+10	16
+1f	31
+2a	42
+ff	255
+
+Idem con 8 bits o un Byte.
+2 8 = 256
+Muy usado para tabla de colores, direcciones ip, etc...
+
+Linea de Comandos
+
+Consola o shell es un programa que permite interactuar con la linea de comando.
+Terminal- física
+Usuarios basados en UNIX
+Se definen usuarios -poseen un home, (directorio) permisos y accesos
+Se definen grupos
+
+Usuario _root  super usuario y administrador del sistema. El resto de los usuarios esta por debajo de root en cuanto a permisos y accesos.
+
+Nota: Paradigma de seguridad; novia despechada o empleado echado.
+
+Terminal en Ubuntu.
+Prompt de la forma:
+
+ubuntu@ubuntu-virtualbox:~$ 
+
+usuario, máquina, ~ carpeta home del usuario
+
+Comandos
+
+ls		listado del contenido de la carpeta
+ls -a		listado con modificador all. Lista archivos ocultos.
+ls -l 		listado como lista
+
+Al listar aparece delante de cada archivo:
+-rw-rwx-r--	
+Se separa en 4 grupos: primer caracter indica tipo de archivo (l para link) siguientes 3 caracteres indican permisos de lectura (r), escritura (w) y ejecución (x) del usuario. Siguientes 3 del owner o propietario del archivo y últimos 3 del grupo.
+
+clear		borra pantalla
+help		eso mismo
+ll		shortcut para ls -la muy útil.
+
+cd Music	va a la carpeta Music (change directory)
+cd		va al home
+pwd		muestra carpeta donde estoy trabajando (print working directory)
+		/home/ubuntu  en este caso.
+man pwd	muestra el manual de como usar el comando pwd
+cd -		vuelve al directorio anterior
+cp 		copiar un archivo
+rm		borrar un archivo (remove)
+rm -r		borra recrsivo, sin preguntar.
+mkdir Casa	crea la carpeta Casa (make directory)
+cat text.txt	ejecuta el archivo text.txt
+[TAB]		la tecla tabulador sirve como atajo para mostrar opciones de 			escritura.
+flechas	idem a dos va a comando ingresados anteriormente
+[ctrl] + a	comienzo de linea
+[ctrl] + e	final de linea
+[ctrl] + c	cancelar
+[ctrl] + d	sale de la consola (desloguea)
+[ctrl] + r	reverse -i- search. 
+history		historia de los comandos
+
+Deberes:
+Bajar e instalar el VirtualBox
+Investigar github
