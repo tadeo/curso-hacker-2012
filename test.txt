@@ -1,6 +1,1 @@
-Agrego test
-
-Y un par de lineas en blanco 
-
-Even more info
-Once more
+GitHub repo on Aptana via SSH
