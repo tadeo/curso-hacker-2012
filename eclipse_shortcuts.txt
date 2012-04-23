@@ -29,3 +29,6 @@ Meta+/				Comment selected text
 Meta+,				Preferences
 
 Meta+Shift+L		Opens the list of shortcuts available for Aptana/Eclipse
+
+Alt+Left/Alt+Right	Jump to previous/next cursor position (example: going back after an F3)
+Meta+k/Meta+Shift+k	Jump to next/previous selection occurrence
