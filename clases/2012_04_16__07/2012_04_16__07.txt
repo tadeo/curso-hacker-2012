@@ -1,1 +1,23 @@
-para resumen calse 7
+Aptana IDE
+_ Conceptos
+_ Instalación
+_ Atajos de teclado
+_ Instalación de plugins: EGit
+
+PivotalTracker
+_ SignUp/SignIn
+_ Conceptos y flujo
+_ Creación de proyecto y adición de usuarios
+
+GitHub
+_ Configuración de llaves públicas
+_ Creación de repo y adición de usuarios
+
+Gitg/Gitx
+_ Instalación y uso
+
+EGit
+_ Uso de Git/GitHub a través de EGit
+_ Nuevo proyecto a partir de repo GitHub
+_ Operaciones básicas Clone, Pull, Add, Stage, Commit, Push
+_ Archivo .gitignore y patrones de exclusión
