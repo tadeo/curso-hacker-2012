@@ -6,7 +6,7 @@ myLorem = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius
 def loremWords (howWords):	
 	words = myLorem.split(' ')
 	
-	result = words[0:howWords]
+	result = words[:howWords]
 	return ' '.join(result)
 
 loremWords(5)
