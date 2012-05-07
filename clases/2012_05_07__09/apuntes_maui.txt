@@ -1,0 +1,47 @@
+Laburamos sobre el archivo /students/irugoy/class_definition.py
+
+
+Todas los métodos de una clase reciben como primer parametro la instacia. Por convencion ese le llama self
+
+__init__ => constructor
+
+los guiones bajos son conveción de python para decir que trata a esas funciones de manera especial. Son de funcionamiento internot
+
+__str__ => respuesta string de la clase 
+__unicode__ => cadenas unidocde: para hacer una cadena unicode se usa 'u' delante de la variable: ejem:
+
+  def __unicode(self):
+    return u'Contains ' + u' '.join(self.contents);
+
+=================
+
+True y False son los booleanos y se escriben con mayúscula
+
+=================
+
+__del__ => se ejecuta cuando se muere el objeto , cuando el garbage collector lo borra (o funciona implisito: basket.__del__() o del(basket))
+
+=================
+
+del(instancia) ejecuta el método __del__ y lo mata implicitamente
+
+
+basket.__str__() => funciona!
+
+===============
+
+Manejo de string: (trailing commas)
+
+'Nombre de esta persona es ' + 'nombre'
+'Nombre de esta persona es %s' % 'nombre'
+
+'Nombre de esta persona es %s, %s' % ('apellido', 'nombre')
+
+'Nombre de esta persona es %(lastname)s, %(name)s.' % {'name':'nombre','lastname':'apellido'}
+
+===============
+Recuerdo:
+Las tuplas son inmutables (no se puede modificar en runtime)
+=============== 
+
+
