@@ -2,3 +2,4 @@ name	html/css	python	js	db	deploy/infrastructure
 maui	1		6	1	0	2
 fabian  3		5	1	1	0
 irugoy	1		5	2	1	1
+coli	2		2	2	2	2
