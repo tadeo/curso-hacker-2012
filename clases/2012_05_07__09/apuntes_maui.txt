@@ -7,7 +7,7 @@ __init__ => constructor
 
 los guiones bajos son conveción de python para decir que trata a esas funciones de manera especial. Son de funcionamiento internot
 
-__str__ => respuesta string de la clase 
+__str__ => respuesta string de la clase
 __unicode__ => cadenas unidocde: para hacer una cadena unicode se usa 'u' delante de la variable: ejem:
 
   def __unicode(self):
@@ -42,20 +42,20 @@ Manejo de string: (trailing commas)
 ===============
 Recuerdo:
 Las tuplas son inmutables (no se puede modificar en runtime)
-=============== 
+===============
 
 and y or
 
 Operadores short circuit
 
 En el caso del and:
-Primero evalua el primer campo 
+Primero evalua el primer campo
 	si da "falsy" devuelve ese primer valor  (NO el booleano sino el valor que evaluado con bool da false)
 	si da 'truly" devuelve ese segundo valor (NO el booleano, sino el segundo valor)
 
 El "or" funciona igual pero exclusivo y no inclusivo
 
-print(variable and str(variable)) or 'no variable' 
+print(variable and str(variable)) or 'no variable'
 
 Si le da true variable (osea si existe) devuelve el valor segundo del and : "str(variable)"
 Si no da true evalua el segundo del devuelve los segundo del or: "no variable"
@@ -76,7 +76,7 @@ Para ejecutar un archivo .py por linea de comando
 
 $ python class_definition.py
 
-Para decirle al sistema (bash) que se debe ejecutar el archivo con python (sin llamar a python), se le deben dar permisos de ejecucion al archivo .py y configurarle quien debe procesar el archivo. 
+Para decirle al sistema (bash) que se debe ejecutar el archivo con python (sin llamar a python), se le deben dar permisos de ejecucion al archivo .py y configurarle quien debe procesar el archivo.
 
 Para poner al archivo permisos de escritura (en linea de comando bash)
 
@@ -90,7 +90,7 @@ Una vez echo esto se puede hacer
 ./class_definition.py
 
 ===================
-Modulos. 
+Modulos.
 Es un archivo que debe estar accesible en el python_path
 
 Hago un archivo class_execution.py donde voy a importar la clase bascket del class_definition.
@@ -112,25 +112,25 @@ print (basket1);
 
 Esta importa todo lo que esta en el archivo class_definition.py, clases y variables.
 
-La major práctica es importa implicitamente cada clase que se va a usar. 
+La major práctica es importa implicitamente cada clase que se va a usar.
 Se pueden importar varias clases de un solo archivo
 
 from class_definition import Basket, BasketItem
 
 
 O inclusive se puede renombrar la clase dentro del mi namespace
-from class_definition import Basket as Canasta 
+from class_definition import Basket as Canasta
 basket4 = Canasta([1,2,3,4]);
 
 
-Es importante tener en cuanta que los import pueden generar inclusiones circulares. 
+Es importante tener en cuanta que los import pueden generar inclusiones circulares.
 
-Para evitar esto se pretende minimizar la dependencia de los modulos. 
+Para evitar esto se pretende minimizar la dependencia de los modulos.
 Y poner los import dentro de la definición de una función.
 
 =======================
 Cada módulo tiene un __name__ que contasta el nombre del modulo que lo contextualiza. Cuando se ejecuta el modulo directamente el __name__ es __main__ (constructor inicial). En caso de importarse es el nombre del módulo.
-El __main__ es quien ejecuta el programa. 
+El __main__ es quien ejecuta el programa.
 Por lo tanto, para poder saber si un modulo esta ejecutandose o esta importandose se utiliza un if en el módulo
 
 if __name__ == '__main__':
@@ -152,7 +152,7 @@ Los paquetes deben tener un archivo que se llame __init__.py dentro de la carpet
 
 Para importar de un paquete se debe hacer referencia al paqueta.modulo
 
-from irugoy.class_definition import Basket 
+from classtest.class_definition import Basket
 
 =================
 
@@ -188,13 +188,13 @@ Django
 
 utiliza patron MTV => Model Template View
 
-Es basado en el mvc pero reparte distinto las tareas. 
+Es basado en el mvc pero reparte distinto las tareas.
 La vista hace mas acciones de controlador y el template hace exclusivamente render de textos.
 
 Agrega un controlador de URLs, lugar donde se define la estructura de url, a que vista llama y que información lleva.
 
 El request es recibido por el controlador de URL, define que vista va a atender y le pasa los parametros.
-La vista le pide al modelo la información que necesita para armar la respuesta, genera un diccionario con esa información, el cual se los pasa al template correspondiente. 
+La vista le pide al modelo la información que necesita para armar la respuesta, genera un diccionario con esa información, el cual se los pasa al template correspondiente.
 El html resultante se devuelve como http response.
 
 Otros elementos importantes:
