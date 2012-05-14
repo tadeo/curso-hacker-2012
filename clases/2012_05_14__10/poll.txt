@@ -1,2 +1,3 @@
 name	html/css	python	js	db	deploy/infrastructure
 maui	1	7	1	0	2
+gerardo 1	4	2	2	1
