@@ -1,20 +1,6 @@
 .project
 .pydevproject
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_1-15__Launch-Aptana-with-Web-Perspective__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_10-15__Stage-changes__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_11-15__Commit__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_12-15__Comment-and-Commit__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_13-15__Push__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_14-15__Check-message-in-console-for-Push-ok__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_15-15__Enjoy__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_2-15__Import-Project__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_3-15__Select-Git-Repository-as-New-Project__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_4-15__Enter-SSH-PATH-to-Repo-and-local-folder-click-Finish__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_5-15__Connecting-to-repo-via-ssh__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_6-15__Enter-Passphrase-Remember__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_7-15__Repo-being-cloned__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_8-15__Repo-cloned-and-shown__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
-clases/2012_04_16__07/Setup_Repo_GitHub_SSH_in_Aptana/Step_9-15__Edit-something-and-save-changes__Setup_Repo_GitHub_SSH_in_AptanaSin título-2.gif
+/.settings/
 .DS_Store
 clases/.DS_Store
 clases/2012_04_23__08/.DS_Store
