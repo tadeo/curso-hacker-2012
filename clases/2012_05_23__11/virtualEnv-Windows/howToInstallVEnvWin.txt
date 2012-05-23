@@ -1,0 +1,51 @@
+// HOW TO INSTALL DJANGO - EASYINSTALL - PIP - VIRTUALENV IN WINDOWS //
+
+En este directorio contamos con:
+HOWTO.txt
+1_ez_setup.py
+
+Insalar python.
+
+http://www.python.org/getit/
+
+Una vez instalado python nos crea el siguiente directorio
+C:\Python27
+
+## Instalar EasyInstall ##
+
+Guardar en c:\PythonXX\1_ez_setup.py
+Desde la consola de win -> inicio -> ejecutar -> cmd
+
+cd c:\PythonXX\
+python.exe ..\1_ez_setup.py
+
+## Instalar PIP ##
+
+Scripts\easy_install.exe pip
+
+## Instalar Django ##
+
+Scripts\pip.exe install django
+
+Para actualizar la version de django
+Scripts\pip.exe install --upgrade django
+
+## Instalar VirtualEnv ##
+
+Scripts\pip.exe install virtualenv
+
+
+### Utilizar VirtualEnv ###
+
+Scripts\virtualenv.exe --no-site-packages --distribute prueba
+cd prueba
+
+// Prender virtualenv
+cmd.exe /K Scripts\activate.bat
+
+//Apagar virtualEnv
+cmd.exe /K Scripts\activate.bat
+
+// Clase 11 //
+
+pip install .r archivo.txt
