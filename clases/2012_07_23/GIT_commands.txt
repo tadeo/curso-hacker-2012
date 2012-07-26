@@ -1,0 +1,32 @@
+GIT commands
+
+
+git --bare init  # to initialize a bare repo
+
+git clone ssh://username@hostname.com/~/path/to/repo.git  # to clone
+
+
+git push origin branchname  # to push
+git branch -d branchname  # to delete a brach locally
+
+git checkout -b new_branch_name  # creates and move to a new branch with current changes in working directory
+git push origin new_branch_name  # uploads the recent created branch
+
+git branch -m old_name new_name  # rename a branch locally
+
+To rename a branch also in the server:
+git branch -m old_name new_name  # rename the branch locally
+git push origin new_name  # uploads the new branch to remote
+git push origin :old_name  # deletes the old remote branch un branch del server
+
+
+git checkout -b branch_name origin/branch_name  # to download and track a branch from origin
+git checkout -t origin/staging  # a shortcut for the previous one
+
+
+To create aliases:
+git config --global alias.co checkout
+git config --global alias.st status
+
+To activate colors:
+git config --global color.ui true
