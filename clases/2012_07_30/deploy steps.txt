@@ -1,0 +1,15 @@
+Parado en ~
+1. Crear carpeta projects
+	mkdir projects
+2. Entrar en projects
+	cd ~/projects
+3. Clonar carpeta del proyecto
+	git clone http://github.com/tadeo/django-academy.git
+4. Crear carpeta modules
+	mkdir modules
+5. Entrar en carpeta del proyecto
+	cd django-academy
+5. Crear un entorno virtual
+	pip install --install-option="--prefix=~/projects/modules" virtualenv
+PYTHONPATH=../modules/lib/python2.6/site-packages/ ../modules/bin/virtualenv --system-site-packages env
+source env/bin/activate
