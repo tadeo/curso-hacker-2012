@@ -1,3 +1,4 @@
+Primeros pasos para hacer deploy e instalar virtualenv en hostgator
 Parado en ~
 1. Crear carpeta projects
 	mkdir projects
