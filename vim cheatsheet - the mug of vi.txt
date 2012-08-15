@@ -1,0 +1,60 @@
+File commands
+vi filename(s)      edit a file or files
+vi -r filename      retrieve saved flie after crash
+ZZ, :wq, :x         save and exit
+:q, :q!             quit; quit without saving
+:w, :w filename     save file, save file with filename
+:e filename         edit filename
+:r filename         insert filename
+:sh                 drop to whell
+:!command           run command
+:r !cmd             execute command and insert output
+!movement cmd       pipe lines in movement through cmd
+
+
+Search and Replace
+/txt, ?txt          find txt forward or backward
+/^txt               find next line that starts with txt
+n, N                repeat last search forward or backward
+R                   replace text from current character
+
+Deleting/Inserting text
+dw, dd, x           delete word, line, character
+ndd, nx             delete n lines, n characters
+x, X                delete character forward, backward
+D, d$               delete to end of line
+dmotion             delete  form cursor to motion ($, O, etc.)
+:>, :<              indent, outdent line
+S                   replace text with blank line
+o, O                insert new line below, above current line
+u                   undo last change
+.                   redo last change
+
+Cut/Copy/Paste
+nyy, ,nY            copy n lines
+yw, yy              copy word, line
+p, P                paste text after, before cursor
+a, i                insert text after, befor cursor
+A, I                insert text end, beginning of line
+
+Moving around
+nG                  move to line n
+h, l, k, j          left, right, up, down one character
+nb, nw              left or right n words
+Ctrl-B, F           backward, forward one screen
+Ctrl-U, D           up, down one screen
+$, G                go to end of line, end of file
+0                   go to beginning of line
+), (                move to next, previous sentence
+}, {                move to next, previous paragraph
+w, b                move forward, backward one word
+e                   go to end of current or next word
+
+Wicked cool stuff
+~                   change case
+xp                  transpose characters
+J                   combine current line with next
+mp                  create a mark called p
+`p                  return to p
+d`x, y`x            del, copy text from mark to cursor
+:> n                indent n lines
